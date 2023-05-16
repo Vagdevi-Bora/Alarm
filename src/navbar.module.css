@@ -1,0 +1,39 @@
+      .navContainer {
+        position: fixed;
+        top: 0px;
+        height: 50px;
+        width: 100%;
+        background-image: linear-gradient(to right, #251bb1, pink, #bc16dd);
+        /* cornflowerblue; */
+        display: flex;
+        justify-content: space-between;
+        z-index: 1;
+      }
+
+      .title {
+        font-size: 1.5rem;
+        font-weight: 700;
+        margin: auto 10px;
+        color: white;
+      }
+
+      .title:hover {
+        color: pink;
+      }
+
+      .image {
+        height: 40px;
+        width: 40px;
+        margin: 7px;
+      }
+
+      .cartCount {
+        border-radius: 50%;
+        padding: 2px 6px;
+        color: white;
+        background-color: red;
+        position: relative;
+        top: -37px;
+        left: -20px;
+        font-size: 12px;
+      }
