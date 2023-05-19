@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Alarm</title>
+    <link rel="stylesheet" href="alarm.css">
+</head>
+
+<body>
+    <main >
+        <div class="center">
+            <!-- <img src="https://thumbs.dreamstime.com/b/blue-alarm-clock-16620034.jpg"> -->
+            <div id="current-time"></div>
+            <div id="setTime">
+                <form id="add">
+                    <input type="number" name="hour" min="0" max="12" placeholder="00" required />
+                    <input type="number" name="min" min="0" max="60" placeholder="00" required />
+                    <input type="number" name="sec" min="0" max="60" placeholder="00" required />
+
+                    <select name="zone" required>
+                        <option value="" selected disabled>Zone</option>
+                        <option value="AM">AM</option>
+                        <option value="PM">PM</option>
+                    </select>
+                <div>
+                    <button id="set-alarm">Set Alarm</button>
+                </div>
+                </form>
+            </div>
+            <ul id="list">
+
+            </ul>
+        </div>
+    </main>
+    <script src="alarm.js"></script>
+</body>
+
+</html>
